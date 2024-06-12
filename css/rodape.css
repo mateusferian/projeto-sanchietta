@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rodape {
+    color: white;
+    width: 100%;
+    background-color: var(--cor1);
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rodape_margem {
+    padding-top: 40px ;
+    padding-bottom: 100px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.rodape_secao-logo {
+    margin-right: 10px;
+}
+
+.rodape_secao-logo img {
+    width: 200px;
+    height: 200px;
+}
+
+.rodape_secao-curiosidades, .rodape_secao-localizacao {
+    width: 30%;
+    margin: 0 10px;
+}
+
+.rodape_barra-credito {
+    color: white;
+    width: 100%;
+    background-color: var(--cor2);
+    margin: 0;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.rodape_titulo{
+    margin-top: 0;
+}

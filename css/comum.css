@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    font-family: 'Sen';
+}
+
+:root {
+    --cor1: #B22905;
+    --cor2: #FF9400;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.corpo {
+    width: 940px;
+    box-sizing: border-box;
+}
+
+.rotulo{
+    margin-top: 100px;
+    background-color: var(--cor1);
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.rotulo h1{
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+}

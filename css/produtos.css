@@ -1,0 +1,247 @@
+.lista-produtos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    height: 1000px;
+}
+
+.filtros {
+    width: 220px;
+    background-color: var(--cor1);
+    height: 100%;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    color: white;
+    border: 1px white solid;
+    margin: 6px 0;
+}
+
+.filtros form {
+    width: 100%;
+    margin: 0;
+    font-weight: bold;
+}
+
+form h2 {
+    margin-top: 10px;
+}
+
+.pesquisa {
+    background-color: white;
+    border-radius: 100px;
+    padding: 12px;
+}
+
+.search {
+    color: gray;
+}
+
+.area-pesquisa {
+    border: none;
+    border-radius: 100px;
+    width: 80%;
+    height: 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-align: center;
+    outline: none;
+    background-color: transparent;
+    color: gray;
+}
+
+.ofertas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ofertas div {
+    display: block;
+}
+
+.ofertas label {
+    margin: 1px;
+}
+
+form ul {
+    list-style-type: none;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 0;
+}
+
+form li {
+    margin: 1px;
+
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.produtos {
+    display: flex;
+    width: 700px;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.produtos_card {
+    width: 220px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 310px;
+}
+
+.produtos_card-porcentagem-desconto {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: var(--cor1);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.produtos_card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.produtos_card h3 {
+    font-size: 14px;
+    margin: 10px 0;
+    font-weight: normal;
+    color: #333;
+    border-top: 1px solid gray;
+}
+
+.produtos_card-informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produtos_card-valor {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 12px;
+    margin: 0;
+}
+
+.produtos_card-valorr-com-desconto {
+    font-size: 24px;
+    color: black;
+    margin: 0;
+    font-weight: bold;
+    padding: 0;
+    margin-right: 10px;
+    align-self: flex-end;
+}
+
+.produtos_card-desconto {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1BBE00;
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+    margin-bottom: 3px;
+}
+
+.produtos_card-valores{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.produtos a{
+    text-decoration: none;
+}
+
+
+.produtos a {
+    text-decoration: none;
+    display: block;
+    transition: box-shadow 0.3s ease;
+}
+
+.produtos_card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.produtos_card:hover,
+.produtos_card:focus {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.produtos_card:active {
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4);
+}
+
+.produtos-margem {
+    margin: 40px 0;
+}
+
+.paginacao {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.paginacao-itens {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.paginacao-item-1,
+.paginacao-item-2,
+.paginacao-item-3,
+.paginacao-item-4 {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #979797;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 5px;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+.paginacao-item-1:hover,
+.paginacao-item-2:hover,
+.paginacao-item-3:hover,
+.paginacao-item-4:hover {
+    box-shadow: 0 12px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
